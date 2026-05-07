@@ -5,7 +5,6 @@
     font-style: normal;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -310,10 +309,10 @@ body {
 }
 
 .logo-contato {
-   width: 259px;   /* Tamanho exato */
-    height: 295px;  /* Tamanho exato */
+   width: 259px;   
+    height: 295px;  
     margin-bottom: 10px;
-    object-fit: contain; /* Garante que a imagem não fique deformada */
+    object-fit: contain; 
 }
 
 .header-contato h1 {
@@ -323,7 +322,7 @@ body {
 }
 
 .header-contato h1 span {
-    color: #E3763E; /* Laranja do "LOCALIZAÇÃO" */
+    color: #E3763E; 
 }
 
 .container-contato {
@@ -335,7 +334,6 @@ body {
     margin: 0 auto;
 }
 
-/* Card Laranja */
 .card-info-laranja {
     background-color: #E3763E;
     flex: 1;
@@ -366,7 +364,7 @@ body {
 .texto-item strong {
     display: block;
     font-size: 18px;
-    color: #274B2C; /* Título interno em verde escuro */
+    color: #274B2C; 
 }
 
 .texto-item p {
@@ -374,9 +372,8 @@ body {
     margin-top: 5px;
 }
 
-/* Card do Mapa */
 .card-mapa-verde {
-    background-color: #274B2C; /* Verde escuro do quadro do mapa */
+    background-color: #274B2C; 
     flex: 1;
     border-radius: 30px;
     padding: 30px;
@@ -401,10 +398,8 @@ body {
     background: white;
 }
 
-/* --- RODAPÉ (ESPAÇO CINZA) --- */
-
 .rodape {
-    background-color: #333; /* Cinza escuro profissional */
+    background-color: #333; 
     color: white;
     padding: 60px 40px 20px;
 }
@@ -425,7 +420,7 @@ body {
 .rodape-logo img {
     width: 150px;
     margin-bottom: 20px;
-    filter: brightness(0) invert(1); /* Deixa a logo branca */
+    filter: brightness(0) invert(1); 
 }
 
 .rodape-logo p {
@@ -486,7 +481,6 @@ body {
     color: #888;
 }
 
-/* Responsividade para Celular */
 @media (max-width: 900px) {
     .container-contato {
         flex-direction: column;
@@ -559,6 +553,11 @@ body {
 }
 
 @media (max-width: 768px) {
+
+    #homepage{
+        height: auto;
+    }
+
     #logo {
         width: 200px;
         height: auto;
